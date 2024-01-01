@@ -1,0 +1,30 @@
+{
+  "name": "remix-d1-session-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimame/remix-d1-session-storage.git"
+  },
+  "author": "chimame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chimame/remix-d1-session-storage/issues"
+  },
+  "homepage": "https://github.com/chimame/remix-d1-session-storage#readme",
+  "peerDependencies": {
+    "@remix-run/cloudflare": "^2.4.1",
+    "@remix-run/server-runtime": "^2.4.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@remix-run/cloudflare": "^2.4.1",
+    "@remix-run/server-runtime": "^2.4.1",
+    "@tsconfig/remix": "^2.0.3",
+    "typescript": "^5.3.3"
+  }
+}
